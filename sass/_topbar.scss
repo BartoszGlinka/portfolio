@@ -1,0 +1,40 @@
+/*Topbar*/
+.topbar {
+  display: flex;
+  min-height: 60px;
+  width: 100%;
+  background-color: $topbar-bck-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  border-bottom: $border-botom;
+  justify-content: flex-end;
+}
+
+.topbar {
+  min-width: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.topbar a {
+  display: inline;
+  margin-right: 15px;
+}
+.topbar h1 {
+  color:#ffffff;
+  border: none;
+  margin: 15px 0 5px 0;
+}
+
+.topbar .subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+
+/*Sidebar*/
+.copie-of-sidebar {
+  display: none;
+}

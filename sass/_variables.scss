@@ -1,0 +1,54 @@
+/* Colors */
+
+$paragraph-color: #979797;
+$brand-main-color: #333333;
+$body-bck-color: #ffffff;
+$light-color: #ffffff;
+
+$topbar-bck-color:#218c74;
+$topbar-border-color: #e3e3e3;
+$avatar-border-color: #333333;
+$sidebar-bck-color: #191919;
+$links-content-bck-color: #f1f3f3;
+
+$maincontent-bck-color: #dff9fb;
+
+$links-color : #55efc4;
+$link-color-hover :#ffffff;
+
+$button-color-org: #218c74;
+$button-color-org-hover: #ffffff;
+$button-color-disabled: #979797;
+$text-in-button: #ffffff;
+$text-in-button-hover:#218c74;
+
+$hexagon-bck-color:#218c74;
+
+$footer-bck-color:#218c74;
+
+
+/* Font sizes */
+$title-section-size: 14px;
+$h1-size: 18px;
+$h2-size: 16px;
+$logo-size: 24px;
+$paragraph-font-size: 12px;
+$link-font-size : 12px;
+
+
+/* Fonts */
+$brand-font: "Open Sans", Helvetica, Arial;
+$paragraph-font: "Open Sans", Helvetica, Arial;
+
+$font-light: 300;
+$font-normal: 400;
+$font-semibold: 500;
+$font-bold: 700;
+
+/*Transition*/
+
+$transition: 0.4s all;
+
+/*Boreder*/
+$border-avater: 1px solid $avatar-border-color;
+$border-botom: 1px solid $topbar-border-color;

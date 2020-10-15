@@ -1,0 +1,272 @@
+/*Content*/
+.content {
+  margin-top: 65px;
+  padding: 10px;
+}
+
+.sub-general-statistic {
+  background-color: $maincontent-bck-color;
+  width: 100%;
+  min-height: 250px;
+  margin-bottom: 10px;
+}
+
+.sub-links {
+  background-color: $maincontent-bck-color;
+  width: 100%;
+  min-height: 250px;
+}
+
+.content h1 {
+  width: 100%;
+  padding: 10px 0 10px 20px;
+}
+
+/*General Statistic*/
+.sub-general-statistic .wrapper {
+  background-color: transparent;
+  border: $border-botom;
+  border-radius: 2px;
+  display: block;
+  margin: 20px 10px;
+}
+
+.sub-general-statistic div input {
+  border: none;
+  max-width: 140px;
+  min-height: 40px;
+}
+
+.sub-general-statistic div input:first-child {
+  border-right: $border-botom;
+}
+
+.wrapper div {
+  margin: 0 20px;
+}
+
+.sub-general-statistic .wrapper {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  border: none;
+  padding: 0;
+  margin : auto 0;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: $border-botom;
+}
+
+.button-active {
+  background-color: $button-color-org;
+  max-height: 50px;
+  margin: 0;
+  display: block;
+}
+
+.button-active .icon-refresh {
+  min-height: 28px;
+  min-width: 28px;
+  color: $light-color;
+  margin: 10px 0;
+}
+
+.statistic-data {
+  border: 0px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.statistic-data .wrapper{
+  border: 0px;
+}
+
+.statistic-data div {
+  display: flex;
+  flex-direction: row;
+}
+
+.statistic-data div div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.statistic-data div div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 200px;
+  border-bottom: $border-botom;
+}
+
+.statistic-data-graph {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+.statistic-data-graph .wrapper {
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+}
+
+.statistic-data-graph .wrapper img {
+  display: block;
+  width: 100%;
+}
+
+/*Links*/
+.sub-links .wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.sub-links button {
+  min-width: 120px;
+  min-height: 40px;
+}
+
+.sub-links ul {
+  padding-left: 10px;
+  width: 100%;
+}
+
+.sub-links li {
+  list-style: none;
+  min-height: 40px;
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  border-bottom: $border-botom; 
+}
+
+.sub-links h2 {
+  min-width: 100px;
+}
+
+.sub-links li .button-wrapper{
+  min-width: 50px;
+  height: auto; 
+}
+
+.sub-links li div{
+  min-width: 200px;
+}
+
+.sub-links li div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-wrapper .svg {
+  height: 22px;
+  width: 22px;
+  margin-left: 20px;
+  color: $paragraph-color;
+  visibility: hidden;
+}
+
+.sub-links li:first-child {
+  border-top: $border-botom;
+}
+
+.sub-links li:hover {
+  background-color: $links-content-bck-color;
+}
+
+.sub-links li:hover .svg {
+  visibility: visible;
+}
+
+.sub-links li:hover .svg:hover {
+  color: $link-color-hover;
+  cursor: pointer;
+}
+
+/*Hexagons*/
+
+.hexagon {
+  width: 100px;
+  height: 55px;
+  position: relative;
+}
+
+.hexagon, 
+.hexagon:before, 
+.hexagon:after {
+  background: $hexagon-bck-color; 
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  left: 22px;
+  width: 57px;
+  height: 57px;
+  transform: rotate(145deg) skew(22.5deg);
+}
+
+.hexagon:before {
+  top: -29px;
+}
+
+.hexagon:after {
+  top: 27px;
+}
+
+.hexagon span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 55px;
+  background: $hexagon-bck-color;
+  z-index: 3;
+}
+
+/*Technologies*/
+
+.technologies-wrapper {
+  flex-wrap: wrap;
+}
+
+.technologies-wrapper p {
+  margin: 10px;
+  padding: 8px;
+  background-color: $button-color-org;
+  color: $text-in-button;
+}
+
+.technologies-wrapper p:hover {
+  background-color: $button-color-org-hover;
+  color: $text-in-button-hover;
+}
+
+/*Footer*/
+
+.footer {
+  background-color: $footer-bck-color;
+}
